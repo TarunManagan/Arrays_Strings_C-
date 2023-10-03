@@ -9,11 +9,11 @@ int main(){
         }
     }
     cout<<"Matrix A is: "<<endl;
-    for(int i=0; i<3;i++){
-        for(int j=0; j<3;j++){
+    for(int i=0; i<3;i++){ //Loop for rows of the matrix
+        for(int j=0; j<3;j++){ // Loop for columns of the matrix
             cout<<a[i][j]<<" ";
         }
-        cout<<endl;
+        cout<<endl; // Prints new line after each row
     }
     return 0;
 }
