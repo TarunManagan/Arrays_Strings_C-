@@ -11,7 +11,7 @@ int main() {
     cout<<"Enter second string: ";
     getline(cin,str2);
     
-    cout<<"Concatenated string is: "<<str1 + str2;
+    cout<<"Concatenated string is: "<<str1 + str2; //Concatenation of 2 strings
     
 return 0;
 }
