@@ -6,13 +6,14 @@ int main() {
     cout<<"Enter the value to find in the array: ";
     cin>>a;
     for(int i=0; i<10; i++){
-        if(a==a1[i]){
-            cout<<a<<" is present in the array at position "<<i+1<<endl;
+        if(a==a1[i]){ //Compares whether the given number is present in the array
+            // If present then it prints its position and as the indexing starts from 0 we do 'i+1'
+            cout<<a<<" is present in the array at position "<<i+1<<endl; 
         }else{
             count++;
         }
     }
-    if(count==10){
+    if(count==10){ //If the number is not present, then the count will be equal to the total number of elements in the array
         cout<<"The number is not present in the array";
     }
 return 0;
