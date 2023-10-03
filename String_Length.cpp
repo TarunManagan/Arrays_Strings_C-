@@ -7,8 +7,8 @@ int main() {
     int count =0;
     cout<<"Enter a string: ";
     getline(cin,str1);
-    for(int i=0; str1[i]!='\0';i++){
-        count++;
+    for(int i=0; str1[i]!='\0';i++){ //String terminates at '\0'
+        count++; //Counts the total numbers of characters present in the string
     }
     cout<<"The lenght of the string is: "<<count;
     
