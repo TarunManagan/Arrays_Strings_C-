@@ -13,11 +13,11 @@ int main() {
     for(int i=0; i<n;i++){
         int Max=0,Min=0;
         for(int j=0;j<n;j++){
-            if(a1[i]>=a1[j]){
-                Max++;
+            if(a1[i]>=a1[j]){ //Keeps on checking whether a number is greater than the rest
+                Max++; //If a number is greater than the rest, then MAX will be equal to the total number of elements of the array
             }
             if(a1[i]<=a1[j]){
-                Min++;
+                Min++; //If a number is smaller than the rest, then MIN will be equal to the total number of elements of the array
             }
         }
         if(Max==n){
