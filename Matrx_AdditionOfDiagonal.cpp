@@ -13,9 +13,9 @@ int main(){
     }
     for(int i=0; i<r;i++){
         for(int j=0; j<c;j++){
-            if(i==j){
+            if(i==j){ // LEFT --> RIGHT //Diagonal elements are present at i=j index
                 sum = sum+A[i][j];
-            }else if(i+j==r-1){
+            }else if(i+j==r-1){ //RIGHT --> LEFT // Diagonal elements are present at i+j==r-1 index
                 count= count+A[i][j];
             }
             
