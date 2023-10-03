@@ -21,7 +21,7 @@ int main(){
     cout<<"The transpose of the Matrix A is: "<<endl;
     for(int i=0; i<c;i++){
         for(int j=0; j<r;j++){
-            cout<<A[j][i]<<"\t";
+            cout<<A[j][i]<<"\t"; // In this the rows becomes columns and columns become rows.
         }
         cout<<endl;
     }
