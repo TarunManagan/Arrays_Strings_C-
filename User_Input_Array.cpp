@@ -6,12 +6,12 @@ int main() {
     cout<<"Enter the size of array: ";
     cin>>n;
     int a1[n];
-    for(int i=0; i<n; i++){
+    for(int i=0; i<n; i++){ //Takes each character of the string one by one
         cout<<"Enter the elements of the array: ";
         cin>>a1[i];
     }
     for(int i=0; i<n; i++){
-        cout<<a1[i]<<"\t";
+        cout<<a1[i]<<"\t"; //Print each character of the string one by one
     }
 return 0;
 }
