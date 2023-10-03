@@ -12,8 +12,8 @@ int main() {
         cin>>a1[i];
     }
     for(int i=0; i<n; i++){
-        sum=sum+a1[i];
-        avg=sum/n;
+        sum=sum+a1[i]; // Sum of elements of the array
+        avg=sum/n; // Average of elements of the array
     }
     cout<<"The sum of elements is: "<<sum<<endl;
     cout<<"The average of elements is: "<<avg;
