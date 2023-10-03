@@ -17,6 +17,7 @@ int main() {
     
     for(int i=0; i<n;i++){
         for(int j=0; j<i;j++){
+            //Swapping of elements of the array
             temp=a1[i];
             a1[i]=a1[j];
             a1[j]=temp;
