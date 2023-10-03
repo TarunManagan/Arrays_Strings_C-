@@ -1,5 +1,5 @@
 #include <iostream>
-#include<string.h>
+#include<string.h> // Necessary to use getline function
 using namespace std;
 
 int main() {
