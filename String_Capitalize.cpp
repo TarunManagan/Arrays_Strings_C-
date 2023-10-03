@@ -9,7 +9,7 @@ int main() {
     cout<<"The original string is: "<<str1<<endl;
     cout<<"The new string is: ";
     for(int i=0; str1[i]!='\0'; i++){
-        cout<<char(str1[i]-32);
+        cout<<char(str1[i]-32); //Converts all the lowercase to uppercase 
     }
 return 0;
 }
