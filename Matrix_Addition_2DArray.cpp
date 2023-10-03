@@ -6,8 +6,8 @@ int main(){
     cin>>r>>c;
     int A[r][c],B[r][c],X[r][c];
     cout<<"Enter the elements of Matrix A: "<<endl;
-    for(int i=0; i<r;i++){
-        for(int j=0; j<c;j++){
+    for(int i=0; i<r;i++){ //Loop for ROWS of the matrix
+        for(int j=0; j<c;j++){// Loop for COLUMNS of the matrix
             cin>>A[i][j];
         }
     }
@@ -22,7 +22,7 @@ int main(){
     cout<<"The resultant Matric X is: "<<endl;
     for(int i=0; i<r;i++){
         for(int j=0; j<c;j++){
-            X[i][j]=A[i][j] + B[i][j];
+            X[i][j]=A[i][j] + B[i][j]; //It adds each element present at corressponding index
             cout<<X[i][j]<<" ";
         }
         cout<<endl;
