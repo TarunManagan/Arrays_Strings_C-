@@ -6,18 +6,18 @@ int main() {
     string str1,str2;
     int n,count=0;
     cout<<"Enter a string: ";
-    getline(cin,str1);
+    getline(cin,str1); //Takes input from the user
     for(int i=0; str1[i]!='\0'; i++){
         n++;
     }
     cout<<"The original string is: "<<str1<<endl;
     cout<<"The reverse string is: ";
     for(int i=n; i>=0; i--){
-        str2[n-i] = str1[i];
-        cout<<str2[n-i];
+        str2[n-i] = str1[i]; //Reverse string
+        cout<<str2[n-i];//Reverse string
     }
     for(int i=0; str1[i]!='\0' && str2[i]!='\0'; i++){ 
-        if(str1[i]==str2[i]){
+        if(str1[i]==str2[i]){ //Compares both strings
             count++; 
         }
     }
