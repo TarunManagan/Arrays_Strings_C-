@@ -1,7 +1,10 @@
+# Name: S.Tarun Managan
+# PRN: 22070123118
+
 # Arrays_Strings_C++
 In C++, an array is a data structure that is used to store multiple values of similar data types in a contiguous memory location.
 For example, if we have to store the marks of 4 or 5 students then we can easily store them by creating 5 different variables but what 
-if we want to store marks of 100 students or say 500 students then it becomes very challenging to create that numbers of variable and manage them. 
+if we want to store marks of 100 students or say 500 students then it becomes very challenging to create those numbers of variables and manage them. 
 Now, arrays come into the picture that can do it easily by just creating an array of the required size.
 
 # Properties of Arrays in C++:
