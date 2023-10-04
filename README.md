@@ -36,7 +36,7 @@ AIM: Print something using arrays
 ALGORITHM:
 
 --> STEP 1: START
---> STEP 2: Declare and Initializie an array with its size
+--> STEP 2: Declare and Initialize an array with its size
 --> STEP 3: Using FOR loop print the elements
     for(int i=0; i<5; i++){ 
         cout<<a1[i]<<endl;
@@ -53,7 +53,7 @@ AIM: Binary search using arrays
 ALGORITHM: 
 
 --> STEP 1: START
---> STEP 2: Declare and Initializie an array with its size and take a number as an input from the user
+--> STEP 2: Declare and Initialize an array with its size and take a number as input from the user
 --> STEP 3: Using FOR loop and if-else statement we can check whether the number is present or not
    for(int i=0; i<10; i++){
         if(a==a1[i]){ //Compares whether the given number is present in the array
@@ -79,11 +79,11 @@ The number is not present in the array
 
 # EXPERIMENT NO: 3
 
-AIM: Find Maximum and Minimum element of the array
+AIM: Find the Maximum and Minimum elements of the array
 ALGORITHM:
 
 --> STEP 1: START
---> STEP 2: Declare and Initializie an array with its size and take its elements as input from the user 
+--> STEP 2: Declare and Initialize an array with its size and take its elements as input from the user 
 --> STEP 3: Using FOR loop and if-else statement we can find the min and max values
    for(int i=0; i<n;i++){
         int Max=0,Min=0;
@@ -121,7 +121,7 @@ AIM: Reverse an array
 ALGORITHM:
 
 --> STEP 1: START
---> STEP 2: Declare and Initializie an array with its size and take its elements as input from the user 
+--> STEP 2: Declare and Initialize an array with its size and take its elements as input from the user 
 --> STEP 3: Using FOR loop and the logic for swapping, we can reverse the array
     for(int i=0; i<n;i++){
         for(int j=0; j<i;j++){
@@ -142,8 +142,8 @@ Enter the elements of the array: 2
 Enter the elements of the array: 3
 Enter the elements of the array: 4
 Enter the elements of the array: 5
-The elements of the array before swaping: 1	2	3	4	5	
-The elements of the array after swaping: 5	4	3	2	1
+The elements of the array before swapping: 1	2	3	4	5	
+The elements of the array after swapping: 5	4	3	2	1
 
 # EXPERIMENT NO: 5
 
@@ -151,13 +151,13 @@ AIM: Find whether the string is a palindrome or not
 ALGORITHM:
 
 --> STEP 1: START
---> STEP 2: Declare and Initializie an array with its size and take its elements as input from the user 
+--> STEP 2: Declare and Initialize an array with its size and take its elements as input from the user 
 --> STEP 3: First we can reverse the original string
      for(int i=n; i>=0; i--){
         str2[n-i] = str1[i]; //Reverse string
         cout<<str2[n-i];//Reverse string
     }
---> STEP 4: Compare the original string and reversed string. If both are same than it is a palindrome otherwise it is not a palindrome.
+--> STEP 4: Compare the original string and the reversed string. If both are the same than it is a palindrome otherwise it is not a palindrome.
    for(int i=0; str1[i]!='\0' && str2[i]!='\0'; i++){ 
         if(str1[i]==str2[i]){ //Compares both strings
             count++; 
@@ -189,7 +189,7 @@ AIM: Matrix Addition using 2-D array
 ALGORITHM:
 
 --> STEP 1: START
---> STEP 2: Declare and Initializie an array with its size and take its elements as input from the user 
+--> STEP 2: Declare and Initialize an array with its size and take its elements as input from the user 
 --> STEP 3: Create 2 matrix using FOR loop: Outer loop for ROWS and Inner loop for COLUMNS
      for(int i=0; i<r;i++){ //Loop for ROWS of the matrix
         for(int j=0; j<c;j++){// Loop for COLUMNS of the matrix
@@ -201,7 +201,7 @@ ALGORITHM:
             cin>>B[i][j];
         }
     }
---> STEP 4: Create third matrix such that its elements will be the sum of corresponding elements of other two matrix
+--> STEP 4: Create a third matrix such that its elements will be the sum of corresponding elements of other two matrix
    for(int i=0; i<r;i++){
         for(int j=0; j<c;j++){
             X[i][j]=A[i][j] + B[i][j]; //It adds each element present at corressponding index
@@ -214,7 +214,7 @@ ALGORITHM:
 --> STEP 6: STOP
 
 OUTPUT
-Enter the number of rows and column of the matrix: 3 3 
+Enter the number of rows and columns of the matrix: 3 3 
 Enter the elements of Matrix A: 
 1 2 3 4 5 6 7 8 9
 Enter the elements of Matrix B: 
@@ -230,7 +230,7 @@ AIM: Matrix Multiplication using 2-D array
 ALGORITHM:
 
 --> STEP 1: START
---> STEP 2: Declare and Initializie an array with its size and take its elements as input from the user 
+--> STEP 2: Declare and Initialize an array with its size and take its elements as input from the user 
 --> STEP 3: Create 2 matrix using FOR loop: Outer loop for ROWS and Inner loop for COLUMNS: NOTE: Remember the multiplication condition
      for(int i=0; i<r;i++){ //Loop for ROWS of the matrix
         for(int j=0; j<c;j++){// Loop for COLUMNS of the matrix
@@ -292,7 +292,7 @@ AIM: Transpose of a matrix
 ALGORITHM:
 
 --> STEP 1: START
---> STEP 2: Declare and Initializie an array with its size and take its elements as input from the user 
+--> STEP 2: Declare and Initialize an array with its size and take its elements as input from the user 
 --> STEP 3: Create a matrix using FOR loop: Outer loop for ROWS and Inner loop for COLUMNS
      for(int i=0; i<r;i++){ //Loop for ROWS of the matrix
         for(int j=0; j<c;j++){// Loop for COLUMNS of the matrix
@@ -344,11 +344,11 @@ ALGORITHM:
 
 OUTPUT
 Enter a string: Hi My Name is Tarun
-The lenght of the string is: 19
+The length of the string is: 19
 
 # EXPERIMENT NO: 10
 
-AIM: String Conatenation
+AIM: String Concatenation
 Theory: a sequence of characters as an object of the class. This class is called string. 
 The string class stores the characters as a sequence of bytes with the functionality of allowing access to the single-byte character.
 
@@ -359,7 +359,7 @@ ALGORITHM:
 --> STEP 3: Take their values from the user using getline() function
 --> STEP 4: Using '+' operator we can concatenate these strings
    cout<<"Concatenated string is: "<<str1 + str2; 
---> STEP 5: Print the conactenated string
+--> STEP 5: Print the concatenated string
 --> STEP 6: STOP
 
 OUTPUT
